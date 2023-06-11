@@ -8,3 +8,7 @@ Using `biblatex` you can display bibliography divided into sections,
 depending of citation type. 
 Let's cite! The Einstein's journal paper [@einstein] and the Dirac's 
 book [@dirac] are physics related items.
+
+```{r}
+demo("LinearSDE", package = "dynr")
+```
