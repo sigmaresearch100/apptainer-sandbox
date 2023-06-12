@@ -32,5 +32,11 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: github-pages
-          path: ./docs
-    
+          path: docs
+      -
+        name: Deploy to GitHub pages 🚀
+        uses: JamesIves/github-pages-deploy-action@v4.4.1
+        with:
+          clean: true
+          branch: gh-pages
+          folder: docs
