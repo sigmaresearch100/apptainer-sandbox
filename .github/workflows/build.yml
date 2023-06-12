@@ -28,12 +28,6 @@ jobs:
         name: Render Quarto Project
         run: apptainer run image.sif quarto render .
       -
-        name: Upload Quarto Project as Artifact
-        uses: actions/upload-artifact@v3
-        with:
-          name: github-pages
-          path: docs
-      -
         name: Deploy to GitHub pages 🚀
         uses: JamesIves/github-pages-deploy-action@v4.4.1
         with:
