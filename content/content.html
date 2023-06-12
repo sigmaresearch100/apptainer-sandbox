@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.353">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Wiki - Sample content</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../content/references.html" rel="next">
+<link href="../index.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/content.html"><span class="chapter-title">Sample content</span></a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">Wiki</a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Preface</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/content.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Sample content</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/references.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">References</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-title">Sample content</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+<p>Using <code>biblatex</code> you can display bibliography divided into sections, depending of citation type. Let’s cite! The Einstein’s journal paper <span class="citation" data-cites="einstein">(<a href="references.html#ref-einstein" role="doc-biblioref">Einstein, 1905</a>)</span> and the Dirac’s book <span class="citation" data-cites="dirac">(<a href="references.html#ref-dirac" role="doc-biblioref">Dirac, 1981</a>)</span> are physics related items.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">demo</span>(<span class="st">"LinearSDE"</span>, <span class="at">package =</span> <span class="st">"dynr"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+
+    demo(LinearSDE)
+    ---- ~~~~~~~~~
+
+&gt; #------------------------------------------------------------------------------
+&gt; # Author: Michael D. Hunter
+&gt; # Date: 2016-05-24
+&gt; # Filename: LinearSDE.R
+&gt; # Purpose: An illustrative example of using dynr to fit
+&gt; #   a linear stochastic differential equation model
+&gt; #------------------------------------------------------------------------------
+&gt; 
+&gt; #rm(list=ls(all=TRUE))
+&gt; 
+&gt; #------------------------------------------------------------------------------
+&gt; # Load packages
+&gt; require(dynr)</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Loading required package: dynr</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Loading required package: ggplot2</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+&gt; #------------------------------------------------------------------------------
+&gt; # Example 2
+&gt; # Damped linear oscillator example
+&gt; # There is measurement noise and there are unmeasured dynamic disturbances.
+&gt; # These disturbances are called dynamic noise.
+&gt; # There is a single indicator.
+&gt; # It is somewhat open to figure out what combination of variables can really be
+&gt; # estimated for this kind of model.  It is clear that measurement noise and
+&gt; # SOME dynamic noise can be estimated, but not all.
+&gt; 
+&gt; 
+&gt; #------------------------------------------------------------------------------
+&gt; # Define all the model components via the RECIPE functions
+&gt; 
+&gt; # measurement
+&gt; # this is the factor loadings matrix, Lambda in SEM notation or C in OpenMx notation
+&gt; meas &lt;- prep.measurement(
++   values.load=matrix(c(1, 0), 1, 2), # starting values and fixed values
++   params.load=matrix(c('fixed', 'fixed'), 1, 2),
++   state.names=c("Position","Velocity"),
++   obs.names=c("y1")) # parameter numbers or indication that parameter is fixed
+
+&gt; # Look
+&gt; meas
+ $values.load
+[[1]]
+   Position Velocity
+y1        1        0
+
+
+ $params.load
+[[1]]
+   Position Velocity
+y1 "fixed"  "fixed" 
+
+
+ $values.exo
+list()
+
+ $params.exo
+list()
+
+ $values.int
+list()
+
+ $params.int
+list()
+
+ $state.names
+[1] "Position" "Velocity"
+
+ $obs.names
+[1] "y1"
+
+ $exo.names
+character(0)
+
+
+&gt; # no free parameters in the factor loadings
+&gt; 
+&gt; 
+&gt; # observation and dynamic noise components
+&gt; # the latent noise is the dynamic noise, Psi in SEM notation or Q in OpenMx notation
+&gt; # the observed noise is the measurement noise, Theta in SEM notation or R in OpenMx notation
+&gt; ecov &lt;- prep.noise(
++   values.latent=diag(c(0, 1), 2), params.latent=diag(c('fixed', 'dnoise'), 2), # uses free parameter 3
++   values.observed=diag(1.5, 1), params.observed=diag('mnoise', 1)) # uses free parameter 4
+
+&gt; # Look
+&gt; ecov
+ $values.latent
+[[1]]
+     [,1] [,2]
+[1,]    0    0
+[2,]    0    1
+
+
+ $params.latent
+[[1]]
+     [,1]    [,2]    
+[1,] "fixed" "fixed" 
+[2,] "fixed" "dnoise"
+
+
+ $values.observed
+[[1]]
+     [,1]
+[1,]  1.5
+
+
+ $params.observed
+[[1]]
+     [,1]    
+[1,] "mnoise"
+
+
+ $values.latent.inv.ldl
+[[1]]
+          [,1] [,2]
+[1,] -13.81551    0
+[2,]   0.00000    0
+
+
+ $values.observed.inv.ldl
+[[1]]
+          [,1]
+[1,] 0.4054651
+
+
+
+&gt; # dynr takes steps to make sure covariance matrices are positive definite
+&gt; 
+&gt; #ecov &lt;- prep.noise(
+&gt; # values.latent=rep(list(diag(c(0, 1), 2)), 2), params.latent=rep(list(diag(c('fixed', 'dnoise'), 2)), 2), # uses free parameter 3
+&gt; # values.observed=list(diag(0.5, 1), diag(1.5, 1)), params.observed=list(diag('mnoise1', 1), diag('mnoise2', 1))) # uses free parameter 4
+&gt; 
+&gt; 
+&gt; # initial covariances and latent state values
+&gt; # These initialize the recursive algorithm (extended Kalman filter) that dynr uses
+&gt; # These are x0 and P0 in OpenMx notation
+&gt; initial &lt;- prep.initial(
++   values.inistate=c(0, 1),
++   params.inistate=c('inipos', 'fixed'), #initial position is free parameter 5, initial slope is fixed at 1
++   values.inicov=diag(1, 2),
++   params.inicov=diag('fixed', 2)) #initial covariance is fixed to a diagonal matrix of 1s.
+
+&gt; #initial &lt;- prep.initial(
+&gt; # values.inistate=list(c(0, 1), c(0, 1)),
+&gt; # params.inistate=list(c('inipos', 'fixed'), c('fixed', 'inivel')), #initial position is free parameter 5, initial slope is fixed at 1
+&gt; # values.inicov=list(diag(1, 2), diag(1, 2)),
+&gt; # params.inicov=list(diag('fixed', 2), diag('fixed', 2))) #initial covariance is fixed to a diagonal matrix of 1s.
+&gt; 
+&gt; 
+&gt; # define the differential equation
+&gt; dynamics &lt;- prep.matrixDynamics(
++   values.dyn=matrix(c(0, -0.1, 1, -0.2), 2, 2),
++   params.dyn=matrix(c('fixed', 'spring', 'fixed', 'friction'), 2, 2), #uses parameters 1 and 2
++   isContinuousTime=TRUE)
+
+&gt; # Data
+&gt; data(Oscillator)
+
+&gt; data &lt;- dynr.data(Oscillator, id="id", time="times", observed="y1")
+
+&gt; # Prepare for cooking
+&gt; # put all the recipes together
+&gt; model &lt;- dynr.model(dynamics=dynamics, measurement=meas, noise=ecov, initial=initial, data=data, outfile="LinearSDE.c")
+
+&gt; # set upper bounds, if you want
+&gt; model$ub &lt;- c(100, 100, 100, 100, 100)
+
+&gt; model$ub &lt;- c(friction=101, spring=100, inipos=103, 100, 100)
+
+&gt; model$ub['dnoise'] &lt;- 99
+
+&gt; printex(model,ParameterAs=model$param.names,show=FALSE,printInit=TRUE,
++         outFile="LinearSDE.tex")
+
+&gt; #tools::texi2pdf("LinearSDE.tex")
+&gt; #system(paste(getOption("pdfviewer"), "LinearSDE.pdf"))
+&gt; 
+&gt; 
+&gt; # Estimate free parameters
+&gt; res &lt;- dynr.cook(model, verbose = FALSE)
+[1] "Get ready!!!!"
+May I present to you your error messages?
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+Optimization function called.
+Starting Hessian calculation ...
+Finished Hessian calculation.
+Original exit flag:  3 
+Modified exit flag:  3 
+Optimization terminated successfully: ftol_rel or ftol_abs was reached. 
+Original fitted parameters:  -0.2507235 -0.6235575 0.4257371 0.4846102 
+0.1352342 
+
+Transformed fitted parameters:  -0.2507235 -0.6235575 1.530718 1.623542 
+0.1352342 
+
+Doing end processing
+Successful trial
+Total Time: 3.242611 
+Backend Time: 2.513585 
+
+&gt; # Examine results
+&gt; summary(res)
+Coefficients:
+         Estimate Std. Error t value ci.lower ci.upper Pr(&gt;|t|)    
+spring   -0.25072    0.03249  -7.716 -0.31441 -0.18704   &lt;2e-16 ***
+friction -0.62356    0.11623  -5.365 -0.85137 -0.39575   &lt;2e-16 ***
+dnoise    1.53072    0.44206   3.463  0.66429  2.39714   0.0003 ***
+mnoise    1.62354    0.10466  15.512  1.41841  1.82867   &lt;2e-16 ***
+inipos    0.13523    1.41982   0.095 -2.64756  2.91803   0.4621    
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+-2 log-likelihood value at convergence = 4067.87
+AIC = 4077.87
+BIC = 4102.41
+
+&gt; plotFormula(model, res@transformed.parameters)</code></pre>
+</div>
+<div class="cell-output-display">
+<p><img src="content_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid" width="672"></p>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+&gt; #ggsave("LinearSDEPlotFml.pdf")
+&gt; #------------------------------------------------------------------------------
+&gt; # some miscellaneous nice functions
+&gt; 
+&gt; plot(res, dynrModel=model, textsize=6, style = 1)</code></pre>
+</div>
+<div class="cell-output-display">
+<p><img src="content_files/figure-html/unnamed-chunk-1-2.png" class="img-fluid" width="672"></p>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+&gt; plot(res, dynrModel=model, textsize=6, style = 2)</code></pre>
+</div>
+<div class="cell-output-display">
+<p><img src="content_files/figure-html/unnamed-chunk-1-3.png" class="img-fluid" width="672"></p>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+&gt; autoplot(res, model, numSubjDemo=1)</code></pre>
+</div>
+<div class="cell-output-display">
+<p><img src="content_files/figure-html/unnamed-chunk-1-4.png" class="img-fluid" width="672"></p>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+&gt; # get the estimated parameters from a cooked model/data combo
+&gt; coef(res)
+    spring   friction     dnoise     mnoise     inipos 
+-0.2507235 -0.6235575  1.5307183  1.6235420  0.1352342 
+
+&gt; # get the log likelihood, AIC, and BIC from a cooked model/data combo
+&gt; logLik(res)
+'log Lik.' -2033.937 (df=5)
+
+&gt; AIC(res)
+[1] 4077.875
+
+&gt; BIC(res)
+[1] 4102.414
+
+&gt; # compare true parameters to estimated ones
+&gt; trueParams &lt;- c(-.3, -.7, 2.2, 1.5, 0)
+
+&gt; data.frame(name=c('Spring', 'Damping', 'DynVar', 'MeasVar', 'IniPos'), true=trueParams, estim=coef(res))
+            name true      estim
+spring    Spring -0.3 -0.2507235
+friction Damping -0.7 -0.6235575
+dnoise    DynVar  2.2  1.5307183
+mnoise   MeasVar  1.5  1.6235420
+inipos    IniPos  0.0  0.1352342
+
+&gt; (CI &lt;- confint(res))
+              2.5 %     97.5 %
+spring   -0.3144090 -0.1870380
+friction -0.8513675 -0.3957474
+dnoise    0.6642948  2.3971418
+mnoise    1.4184091  1.8286749
+inipos   -2.6475642  2.9180326
+
+&gt; # Check that all true parameters are within the confidence intervals of the estimated params
+&gt; withinIntervals &lt;- CI[,1] &lt; trueParams &amp; trueParams &lt; CI[,2]
+
+&gt; withinIntervals
+  spring friction   dnoise   mnoise   inipos 
+    TRUE     TRUE     TRUE     TRUE     TRUE 
+
+&gt; # all should be true
+&gt; 
+&gt; # compare estimated smoothed latent states to true
+&gt; # simulated ones
+&gt; sm &lt;- data.frame(t(res@eta_smooth_final))
+
+&gt; cor(sm, Oscillator[,c('x1', 'x2')])
+           x1         x2
+X1 0.94333283 0.01440661
+X2 0.03430961 0.69468620
+
+&gt; #------------------------------------------------------------------------------
+&gt; # End
+&gt; #save(model,res,file="LinearSDE.RData")</code></pre>
+</div>
+</div>
+
+
+<div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="list" style="display: none">
+<div id="ref-dirac" class="csl-entry" role="listitem">
+Dirac, P. A. M. (1981). <em>The principles of quantum mechanics</em>. Clarendon Press.
+</div>
+<div id="ref-einstein" class="csl-entry" role="listitem">
+Einstein, A. (1905). <span class="nocase">Zur Elektrodynamik bewegter K<span class="nocase">ö</span>rper</span>. (<span>German</span>) [<span>On</span> the electrodynamics of moving bodies]. <em>Annalen Der Physik</em>, <em>322</em>(10), 891–921. https://doi.org/<a href="http://dx.doi.org/10.1002/andp.19053221004">http://dx.doi.org/10.1002/andp.19053221004</a>
+</div>
+</div>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  let localAlternateSentinel = 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../index.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Preface</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../content/references.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-title">References</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+</body></html>
